@@ -1,0 +1,52 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "",
+  "type": "object",
+  "title": "Root Poll Schema",
+  "required": [
+    "pollVotes"
+  ],
+  "properties": {
+    "pollVotes": {
+      "$id": "#/properties/pollVotes",
+      "type": "object",
+      "title": "The Pollvotes Schema",
+      "required": [
+        "patternProperties"
+      ],
+      "properties": {
+        "patternProperties": {
+          "$id": "#/properties/pollVotes/properties/patternProperties",
+          "type": "object",
+          "title": "The Pattern properties Schema",
+          "required": [
+            "*"
+          ],
+          "properties": {
+            "*": {
+              "$id": "#/properties/pollVotes/properties/patternProperties/properties/*",
+              "type": "object",
+              "title": "The * Schema",
+              "required": [
+                "type"
+              ],
+              "properties": {
+                "type": {
+                  "$id": "#/properties/pollVotes/properties/patternProperties/properties/*/properties/type",
+                  "type": "string",
+                  "title": "The Type Schema",
+                  "default": "",
+                  "examples": [
+                    "integer"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

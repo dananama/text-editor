@@ -1,0 +1,63 @@
+{
+  "name": "drafts",
+  "author": "dananama",
+  "version": "0.1.1",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@reshuffle/code-transform": "0.0.3",
+    "@reshuffle/db": "^0.5.1",
+    "@reshuffle/fetch-runtime": "0.0.5",
+    "@reshuffle/local-proxy": "0.2.6",
+    "@reshuffle/server-function": "0.0.6",
+    "bootstrap": "^4.3.1",
+    "draft-js": "^0.11.0",
+    "masonry-layout": "^4.2.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint backend && stylelint src/**/*.css"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "create-react-app",
+    "fullstack",
+    "poll",
+    "survey",
+    "bootstrap",
+    "backend"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}
