@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "cypress": "^3.4.1",
-    "stylelint": "^10.1.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^18.3.0"
   }
 }
